@@ -34,6 +34,7 @@ export async function createWorkspace(
           id: uuidv4().replace("-", ""),
           members: [],
           messages: [],
+          type: "channels",
         },
       ],
       members: [],
